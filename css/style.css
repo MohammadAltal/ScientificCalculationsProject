@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+
+body{
+	padding-top:55px;
+	overflow:hidden;
+	transition:all .7s ease-in-out;
+}
+
+/* Start Navbar*/
+.navbar{
+    background-color:#e6e6e6;
+    border: none;
+}
+
+.navbar .navbar-header .navbar-brand{
+    font-size:1.5em;
+    letter-spacing: 2px;
+}
+
+.navbar-nav li a{
+	font-size:1.3em;
+}
+.navbar-nav li{
+      padding: 3px 2px;
+       transition:all .4s ease-in-out;
+}
+
+.navbar-nav li:hover{
+        background-color:#f2f2f2;
+}
+/* End Navbar */
+
+
+/* Start Section Project */
+.project{
+    min-height: 500px;
+    background-image: url("../img/Cover.jpg");
+    background-attachment: fixed;
+	background-size:100% 100%;
+}
+.project .project-inside{
+	min-height:500px;
+	background-color:rgba(2,2,2,0.8);
+	padding-top:120px ;
+}
+.project .project-inside p{
+	color:#e6e5e5;
+    font-size: 4em; 
+}
+/* End Section Project */
+
+/* Start Section Execution*/
+.Execution{
+	padding-top:40px;
+    padding-bottom: 60px;
+    background-color:#f2f2f2;
+}
+.Execution .h1{
+	padding-top:20px;
+	padding-bottom:30px;
+	letter-spacing:5px;
+	font-size:3em;
+}
+
+.Execution .implements{
+	padding:10px;
+	font-size:1.5em;
+	line-height:3em;
+	}
+/* End Section Execution*/
+
+
+/* Start Section Team work*/
+.Team-work{
+	background-image:url(../img/Team-Work.jpeg);
+	background-attachment:fixed;
+	background-size:100% 100%;
+	min-height:500px;
+}
+.Team-work .team{
+	background:rgba(0,0,0,0.8);
+	color:#FFF;
+	min-height:500px;
+	padding:40px 10px;	
+}
+
+.Team-work .team .h1{
+	padding-top:20px;
+	padding-bottom:10px;
+	letter-spacing:5px;
+	font-size:3em;	
+}
+
+.Team-work .team .member{
+	margin:40px 0px;
+}
+
+.Team-work .team .member img{
+	width:200px;
+	height:200px;
+}
+.Team-work .team .member i{
+	font-size:1.4em;
+	margin:5px;
+}
+.Team-work .team .member a{
+	color:#fff;
+}
+/* End Section Team work*/
+
+/* Start Section Download */
+.download {
+	padding:40px 0px;
+	background-color:#f2f2f2;
+}
+.download h1{
+	padding-top:20px;
+	letter-spacing:5px;
+	font-size:3em;	
+}
+.download .net a{
+	max-width:450px;
+	margin:50px auto;
+	padding:10px 10px;
+	font-size:1.5em;
+}
+
+/* End Section Download */
+
+/* Start Section Rating */
+.rating{
+	background-image:url(../img/Rating.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	min-height:350px;
+}
+.rating-inside{
+	background-color:rgba(2,2,2,0.8);
+	min-height:350px;
+	padding:40px 0px;
+}
+.rating .rating-inside .h1{
+	padding-top:20px;
+	padding-bottom:-5px;
+		letter-spacing:5px;
+		color:#fff;
+		font-size:3em;			
+}
+.rating .rating-inside p{
+	font-size:70px;
+		font-weight:800;
+		color:#B6B5B5;
+		margin-bottom:50px;
+		margin-top:20px;
+		transition:all .7s ease-in-out;
+        display: inline-block;
+}
+.rating .rating-inside p:hover{
+	color:#fff;
+}
+.rating .rating-inside span:hover{
+	color:#fff;
+}
+/* End Section Rating */
+
+/* Start Footer */
+.footer{
+  background-color:#d9d9d9;
+  padding: 20px;
+    padding-top: 30px;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+}
+/* End Footer */
+
+
+/* Start Spinner */
+.loading-overlay {
+    background:#d9d9d9;
+    color:#FFF;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99999
+}
+
+.sk-folding-cube {
+  margin: 250px auto;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
+/* End Spinner */
+
+/* Start Types.js */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* ./ Typed.js */
+
+
+@media (max-width:767px){
+    body{
+	padding-top:50px;
+	overflow:hidden;
+	transition:all .7s ease-in-out;
+}
+    .navbar .navbar-header .navbar-brand{
+    font-size:1.2em;
+    letter-spacing: 0px;
+}
+    
+    .project .project-inside p{
+	color:#e6e5e5;
+    font-size: 3em; 
+}
+    
+    .Execution .implements{
+	padding:10px;
+	font-size:1.4em;
+	line-height:2em;
+	}
+    
+}
